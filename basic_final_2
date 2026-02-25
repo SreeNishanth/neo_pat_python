@@ -1,0 +1,15 @@
+a=float(input())
+b=float(input())
+c=float(input())
+d=float(input())
+t=a+b+c+d
+
+bre=(a/t)*100
+top=(b/t)*100
+frost=(c/t)*100
+log=(d/t)*100
+print("Total Expense:",f"{t:.2f}")
+print("Bread Expense:",f"{bre:.2f}")
+print("Toppings Expense:",f"{top:.2f}")
+print("Frosting Expense:",f"{frost:.2f}")
+print("Logistics Expense:",f"{log:.2f}")

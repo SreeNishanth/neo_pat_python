@@ -1,0 +1,5 @@
+n= float(input())
+weekdays=(n-800)/130
+weekend=weekdays+10
+print(f"{weekend:.1f}")
+print(f"{weekdays:.1f}")
